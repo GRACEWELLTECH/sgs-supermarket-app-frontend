@@ -1,0 +1,39 @@
+<mat-drawer-container class="example-container">
+    <mat-drawer mode="side" opened>
+        <mat-accordion mat-list-item>
+
+            <mat-expansion-panel class="panel">
+                <mat-expansion-panel-header class="panel-header">
+                    <mat-panel-title class="panel-header-title">
+                        User Management
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <!-- <a mat-list-item (click)="onSubmit()">profile</a>-->
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'create-user' ]">Create User</a>
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'manage-user' ]">Create Role</a>
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'manage-UserRequests' ]">Create Permissions</a>
+                
+            </mat-expansion-panel>
+        </mat-accordion>
+        <mat-accordion mat-list-item>
+
+            <mat-expansion-panel class="panel">
+                <mat-expansion-panel-header class="panel-header">
+                    <mat-panel-title class="panel-header-title">
+                        Inventory Management
+                    </mat-panel-title>
+                </mat-expansion-panel-header>
+                <!-- <a mat-list-item (click)="onSubmit()">profile</a>-->
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'create-user' ]">Create Product</a>
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'manage-user' ]">Manage Product</a>
+                
+                
+            </mat-expansion-panel>
+        </mat-accordion>
+
+    </mat-drawer>
+    <mat-drawer-content>Main content
+        <router-outlet></router-outlet>
+    </mat-drawer-content>
+  </mat-drawer-container>
+  
