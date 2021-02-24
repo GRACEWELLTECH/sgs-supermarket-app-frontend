@@ -9,7 +9,7 @@
                     </mat-panel-title>
                 </mat-expansion-panel-header>
                 <!-- <a mat-list-item (click)="onSubmit()">profile</a>-->
-                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'create-user' ]">Create User</a>
+                <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'registerUser' ]">Create User</a>
                 <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'manage-user' ]">Create Role</a>
                 <a mat-list-item routerLinkActive="active-link" [routerLink]="[ 'manage-UserRequests' ]">Create Permissions</a>
                 
@@ -32,7 +32,7 @@
         </mat-accordion>
 
     </mat-drawer>
-    <mat-drawer-content>Main content
+    <mat-drawer-content>
         <router-outlet></router-outlet>
     </mat-drawer-content>
   </mat-drawer-container>
