@@ -1,4 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import {TopNavigationComponent} from '../top-navigation/top-navigation.component'
+import {SidemenuComponent} from '../sidemenu/sidemenu.component'
+
+
+
 
 @Component({
   selector: 'app-main-layout',

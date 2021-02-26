@@ -11,6 +11,8 @@ import { SidemenuComponent } from './components/commonComponents/sidemenu/sideme
 import { TopNavigationComponent } from './components/commonComponents/top-navigation/top-navigation.component';
 import { MainLayoutComponent } from './components/commonComponents/main-layout/main-layout.component';
 import { RegisterUserComponent } from './components/user/register-user/register-user.component';
+import { CreateRoleComponent } from './components/user/create-role/create-role.component';
+import { CreatePermissionComponent } from './components/user/create-permission/create-permission.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { RegisterUserComponent } from './components/user/register-user/register-
     SidemenuComponent,
     TopNavigationComponent,
     MainLayoutComponent,
-    RegisterUserComponent
+    RegisterUserComponent,
+    CreateRoleComponent,
+    CreatePermissionComponent
   ],
   imports: [
     BrowserModule,

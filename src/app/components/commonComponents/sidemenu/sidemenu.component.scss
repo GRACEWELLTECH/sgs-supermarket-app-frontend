@@ -5,3 +5,39 @@
     border: 1px solid #555;
   }
   
+  .sidenav{
+    width:240px;
+    background: #F9F9FB;
+    a{
+        font-size: 14px;
+        line-height: 20px;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+        color: rgba(27, 27, 27, 0.7);
+        mix-blend-mode: normal;
+    }
+    .panel{
+        border-bottom-right-radius: 0;
+        border-bottom-left-radius: 0px;
+        box-shadow: none;
+        background: transparent;
+     
+        .panel-header{
+            padding: 0 16px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.25px;
+            text-transform: uppercase;
+            mix-blend-mode: normal;
+            .panel-header-title{
+                color: rgba(27, 27, 27, 0.7);
+                letter-spacing: 0.25px;
+            }
+        }
+    }
+}
+
+.active-link{
+    background: #DADADA;
+    font-weight: 500;
+}
