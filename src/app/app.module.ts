@@ -13,6 +13,7 @@ import { MainLayoutComponent } from './components/commonComponents/main-layout/m
 import { RegisterUserComponent } from './components/user/register-user/register-user.component';
 import { CreateRoleComponent } from './components/user/create-role/create-role.component';
 import { CreatePermissionComponent } from './components/user/create-permission/create-permission.component';
+import { ItemMasterComponent } from './components/InventoryModule/item-master/item-master.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CreatePermissionComponent } from './components/user/create-permission/c
     MainLayoutComponent,
     RegisterUserComponent,
     CreateRoleComponent,
-    CreatePermissionComponent
+    CreatePermissionComponent,
+    ItemMasterComponent
   ],
   imports: [
     BrowserModule,
